@@ -1,0 +1,265 @@
+body {
+
+    color: white;
+    background-position: center;
+    background-image: url("../Images/white.jpg");
+    background-size: cover;
+
+
+}
+
+.all {
+    width: 780px;
+    height: 1040px;
+    background-color: red;
+    margin: auto;
+    overflow: auto;
+    box-shadow: 0 0 10px #95c3e9, 0 0 30px #185c94, 0 0 60px #053258;
+
+
+}
+
+.all:hover {
+    box-shadow: 0 0 10px #f3de21, 0 0 40px #f39121, 0 0 80px #f73e0f;
+}
+
+.left {
+
+    width: 300px;
+    height: 1000px;
+    background-color: #051b2e;
+    float: left;
+    padding: 20px;
+
+}
+
+.right {
+    width: 400px;
+    height: 1000px;
+    background-color: #edf3f7;
+    color: black;
+    float: right;
+    padding: 20px;
+
+
+}
+
+.photo {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-size: cover;
+    display: block;
+    margin: 0px auto;
+    box-shadow: 0 0 10px #95c3e9, 0 0 30px #185c94, 0 0 60px #053258;
+
+    animation: imgRotate 5s 1 ease-in-out forwards;
+}
+
+.photo:hover {
+    box-shadow: 0 0 10px #f3de21, 0 0 40px #f39121, 0 0 80px #f73e0f;
+}
+
+.line-left {
+    width: 90%;
+    height: 4px;
+    background-color: #736efe;
+    ;
+    border: none;
+
+}
+
+.line-left:hover {
+    width: 95%;
+    height: 5px;
+
+}
+
+.line-right {
+    width: 98%;
+    height: 4px;
+    background-color: #736efe;
+    ;
+    border: none;
+}
+
+.line-right:hover {
+    width: 99%;
+    height: 4px;
+    border: none;
+}
+
+.line-left:hover,
+.line-right:hover {
+    box-shadow: 0 0 10px #f3de21, 0 0 40px #f39121, 0 0 80px #f73e0f;
+}
+
+.info-right {
+    text-align: center;
+
+}
+
+.font-right {
+    font-size: 17px;
+}
+.info-right,.info-left{
+    user-select: none;
+    color: rgba(225, 225, 225, .1);
+    background-image: url("../Images/1.jpeg");
+    background-repeat: repeat-x;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -o-background-clip: text;
+    -ms-background-clip: text;
+    animation: text 5s infinite linear;
+    animation-direction: alternate;
+}
+
+.Personal {
+
+    user-select: none;
+    color: rgba(225, 225, 225, .1);
+    background-image: url("../Images/colors.jpg");
+    background-repeat: repeat-x;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -o-background-clip: text;
+    -ms-background-clip: text;
+    animation: text 10s infinite linear;
+    animation-direction: alternate;
+
+
+}
+
+.My-Name {
+
+    text-align: center;
+
+    color: rgba(225, 225, 225, .1);
+    background-image: url("../Images/1.jpeg");
+    background-repeat: repeat-x;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -o-background-clip: text;
+    -ms-background-clip: text;
+    animation: text 10s infinite linear;
+    animation-direction: alternate;
+
+}
+
+.My-Name:hover {
+
+    font-size: 25px;
+
+}
+
+
+
+
+@keyframes text {
+
+    0%,
+    75% {
+        background-position: right;
+    }
+
+    25%,
+    100% {
+        background-position: center;
+    }
+
+    50% {
+        background-position: left;
+    }
+}
+
+.phone {
+    color: #736efe;
+}
+
+.address {
+    color: #736efe;
+}
+
+.insta {
+    color: #fb3958;
+}
+
+.facebook {
+    color: #0396ff;
+
+}
+
+.whats {
+    color: #81fbb8;
+}
+
+.gmail {
+    color: lightcyan;
+
+}
+
+.twiter {
+    color: #130cdf;
+
+}
+.git{
+    color: #ce39fb;
+}
+
+.icons {
+
+    font-size: 28px;
+
+}
+
+.facebook:hover,
+.twiter:hover,
+.insta:hover,
+.twiter:hover,
+.gmail:hover,
+.whats:hover
+,.git:hover {
+    font-size: 32px;
+}
+
+ul {
+    list-style: none;
+    margin-right: 25px;
+
+}
+
+ul li {
+    display: inline;
+    margin-left: 4px;
+
+}
+
+
+
+.travel,
+.sport,
+.read {
+
+    color: #736efe;
+    padding-left: 210px;
+    font-size: 20px;
+
+}
+
+.sport {
+    padding-left: 235px;
+}
+
+.read {
+    padding-left: 218px;
+}
+
+.languages {
+
+    color: red;
+    padding-left: 140px;
+}
